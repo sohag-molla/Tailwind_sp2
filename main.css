@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .num{
+        @apply text-[#00FF84] font-bold;
+    }
+    .tab{
+        @apply border p-1 rounded-full border-[#F44335] text-[#F44335];
+    }
+    .new{
+        @apply border-[2px] hover:bg-gray-500 transition-all hover:scale-105 translate-y-1 px-6 py-2 text-3xl font-sans rounded-full dark:text-white;
+    }
+    .sort{
+        @apply flex justify-center items-center;
+    }
+    .tag{
+        @apply font-semibold text-[#20484F] dark:text-white; 
+    }
+}
